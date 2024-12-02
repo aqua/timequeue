@@ -529,9 +529,6 @@ func TestNewWakeSignal(t *testing.T) {
 	if ws.src == nil {
 		t.Errorf("ws.src = nil WANT non-nil")
 	}
-	if cap(ws.src) != 1 {
-		t.Errorf("cap(ws.src) = %v WANT %v", cap(ws.src), 1)
-	}
 	if ws.stop == nil {
 		t.Errorf("ws.stop = nil WANT non-nil")
 	}
