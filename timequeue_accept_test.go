@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogolfing/timequeue"
+	"github.com/aqua/timequeue"
 )
 
 func messagesLessFunc(messages []timequeue.Message) func(i, j int) bool {

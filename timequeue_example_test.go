@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogolfing/timequeue"
+	"github.com/aqua/timequeue"
 )
 
 func ExampleTimeQueue() {
