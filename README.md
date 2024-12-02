@@ -1,13 +1,8 @@
-# timequeue
+[![CI](https://github.com/aqua/timequeue/actions/workflows/go.yml/badge.svg)](https://github.com/aqua/timequeue/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aqua/timequeue)](https://goreportcard.com/report/github.com/aqua/timequeue)
+[![Go Reference](https://pkg.go.dev/badge/github.com/aqua/timequeue.svg)](https://pkg.go.dev/github.com/aqua/timequeue)
+
 timequeue provides a TimeQueue type that releases arbitrary messages at given
 time.Times.
 
 Forked from the long-dormant github.com/gogolfing/timequeue.
-
-#### Status
-[![Build Status](https://travis-ci.org/aqua/timequeue.svg?branch=master)](https://travis-ci.org/aqua/timequeue)
-[![Coverage Status](https://coveralls.io/repos/github/aqua/timequeue/badge.svg?branch=master)](https://coveralls.io/github/aqua/timequeue?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/aqua/timequeue)](https://goreportcard.com/report/github.com/aqua/timequeue)
-
-### Documentation and Usage
-Full documentation and examples can be found at [![GoDoc](https://godoc.org/github.com/aqua/timequeue?status.svg)](https://godoc.org/github.com/aqua/timequeue)
